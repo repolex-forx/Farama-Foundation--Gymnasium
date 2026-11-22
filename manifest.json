@@ -1467,6 +1467,268 @@
       ],
       "ast": [
         "aggregate/ast/365080941ea3a815ac09e57a7d4ee263a142651d/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/365080941ea3a815ac09e57a7d4ee263a142651d.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "numpy",
+          "ecosystem": "PYPI",
+          "version": "1.21.0",
+          "githubOrg": "numpy",
+          "githubRepo": "numpy",
+          "githubCommit": "b235f9e701e14ed6f6f6dcba885f7986a833743f",
+          "githubTag": "v1.21.0",
+          "githubUrl": "https://github.com/numpy/numpy",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "cloudpickle",
+          "ecosystem": "PYPI",
+          "version": "1.2.0",
+          "githubOrg": "cloudpipe",
+          "githubRepo": "cloudpickle",
+          "githubCommit": "02f62a515640a2d1b68e1864ab22802511e67763",
+          "githubTag": "v1.2.0",
+          "githubUrl": "https://github.com/cloudpipe/cloudpickle",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "typing-extensions",
+          "ecosystem": "PYPI",
+          "version": "4.3.0",
+          "githubOrg": "python",
+          "githubRepo": "typing_extensions",
+          "githubCommit": "9c0759a260fe126210a1e2026720000a3c40a919",
+          "githubTag": "4.3.0",
+          "githubUrl": "https://github.com/python/typing_extensions",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "farama-notifications",
+          "ecosystem": "PYPI",
+          "version": "0.0.1",
+          "githubOrg": "Farama-Foundation",
+          "githubRepo": "Farama-Notifications",
+          "githubUrl": "https://github.com/Farama-Foundation/Farama-Notifications",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "ale-py",
+          "ecosystem": "PYPI",
+          "version": "0.9",
+          "githubOrg": "Farama-Foundation",
+          "githubRepo": "Arcade-Learning-Environment",
+          "githubUrl": "https://github.com/Farama-Foundation/Arcade-Learning-Environment",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "box2d",
+          "ecosystem": "PYPI",
+          "version": "2.3.10",
+          "githubOrg": "pybox2d",
+          "githubRepo": "pybox2d",
+          "githubCommit": "ed9d7b04f7099a15984c727dbce46c13abd64409",
+          "githubTag": "2.3.10",
+          "githubUrl": "http://github.com/pybox2d/pybox2d",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pygame",
+          "ecosystem": "PYPI",
+          "version": "2.1.3",
+          "githubOrg": "pygame",
+          "githubRepo": "pygame",
+          "githubCommit": "87fdb4c4fcb4cf6e372b7a434a858772f60412e0",
+          "githubTag": "2.1.3",
+          "githubUrl": "https://github.com/pygame/pygame",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "swig",
+          "ecosystem": "PYPI",
+          "version": "4.",
+          "githubOrg": "nightlark",
+          "githubRepo": "swig-pypi",
+          "githubUrl": "https://github.com/nightlark/swig-pypi",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "mujoco",
+          "ecosystem": "PYPI",
+          "version": "2.1.5",
+          "githubOrg": "google-deepmind",
+          "githubRepo": "mujoco",
+          "githubCommit": "87539dbd24825249f6215fb43050d4dd2c9a8fc2",
+          "githubTag": "2.1.5",
+          "githubUrl": "https://github.com/google-deepmind/mujoco",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "imageio",
+          "ecosystem": "PYPI",
+          "version": "2.14.1",
+          "githubOrg": "imageio",
+          "githubRepo": "imageio",
+          "githubCommit": "208350eb8a13324fd8d96351f9ab125992a13803",
+          "githubTag": "v2.14.1",
+          "githubUrl": "https://github.com/imageio/imageio",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "packaging",
+          "ecosystem": "PYPI",
+          "version": "23.0",
+          "githubOrg": "pypa",
+          "githubRepo": "packaging",
+          "githubCommit": "e3f218269c0f2fd2aff228b310d7f474a3ffd487",
+          "githubTag": "23.0",
+          "githubUrl": "https://github.com/pypa/packaging",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "jax",
+          "ecosystem": "PYPI",
+          "version": "0.4.16",
+          "githubOrg": "jax-ml",
+          "githubRepo": "jax",
+          "githubUrl": "https://github.com/jax-ml/jax",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "jaxlib",
+          "ecosystem": "PYPI",
+          "version": "0.4.16",
+          "githubOrg": "jax-ml",
+          "githubRepo": "jax",
+          "githubUrl": "https://github.com/jax-ml/jax",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "flax",
+          "ecosystem": "PYPI",
+          "version": "0.5.0",
+          "githubOrg": "google",
+          "githubRepo": "flax",
+          "githubCommit": "779b9f774d6c127ba49caeb2d641aad361cf9bdd",
+          "githubTag": "v0.5.0",
+          "githubUrl": "https://github.com/google/flax",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "array-api-compat",
+          "ecosystem": "PYPI",
+          "version": "1.11.0",
+          "githubOrg": "data-apis",
+          "githubRepo": "array-api-compat",
+          "githubUrl": "https://github.com/data-apis/array-api-compat",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "torch",
+          "ecosystem": "PYPI",
+          "version": "1.13.0",
+          "githubOrg": "pytorch",
+          "githubRepo": "pytorch",
+          "githubCommit": "7c98e70d44abc7a1aead68b6ea6c8adc8c554db5",
+          "githubTag": "v1.13.0",
+          "githubUrl": "https://github.com/pytorch/pytorch",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "matplotlib",
+          "ecosystem": "PYPI",
+          "version": "3.0",
+          "githubOrg": "matplotlib",
+          "githubRepo": "matplotlib",
+          "githubUrl": "https://github.com/matplotlib/matplotlib",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "opencv-python",
+          "ecosystem": "PYPI",
+          "version": "3.0",
+          "githubOrg": "opencv",
+          "githubRepo": "opencv-python",
+          "githubUrl": "https://github.com/opencv/opencv-python",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "seaborn",
+          "ecosystem": "PYPI",
+          "version": "0.13",
+          "githubOrg": "mwaskom",
+          "githubRepo": "seaborn",
+          "githubUrl": "https://github.com/mwaskom/seaborn",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest",
+          "ecosystem": "PYPI",
+          "version": "7.1.3",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubCommit": "4645bcd44915c2fd6043b101626e5bf1a983ac07",
+          "githubTag": "7.1.3",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "scipy",
+          "ecosystem": "PYPI",
+          "version": "1.7.3",
+          "githubOrg": "scipy",
+          "githubRepo": "scipy",
+          "githubCommit": "59e6539cf80dc04b16b0f0ab52343381f0a7a2fa",
+          "githubTag": "v1.7.3",
+          "githubUrl": "https://github.com/scipy/scipy",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "dill",
+          "ecosystem": "PYPI",
+          "version": "0.3.7",
+          "githubOrg": "uqfoundation",
+          "githubRepo": "dill",
+          "githubCommit": "d33477195e0433b5add1c16e4ea7c54747b2feaa",
+          "githubTag": "dill-0.3.7",
+          "githubUrl": "https://github.com/uqfoundation/dill",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "array-api-extra",
+          "ecosystem": "PYPI",
+          "version": "0.7.0",
+          "githubOrg": "data-apis",
+          "githubRepo": "array-api-extra",
+          "githubCommit": "de481f2cac821c2db7ab2a45b83ed29963c2e1eb",
+          "githubTag": "v0.7.0",
+          "githubUrl": "https://github.com/data-apis/array-api-extra",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "tqdm",
+          "ecosystem": "PYPI",
+          "version": "4.70.1",
+          "githubOrg": "tqdm",
+          "githubRepo": "tqdm",
+          "githubCommit": "9cf5a12b1f955468a17f0ba3c59092b23e4258ac",
+          "githubTag": "v4.70.1",
+          "githubUrl": "https://github.com/tqdm/tqdm",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/tqdm/std.py"
+        },
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "84.2.1",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "3895f9829fc0e51882981773a823a658eb1d1636",
+          "githubTag": "v84.2.1",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/setuptools/__init__.py"
+        }
       ]
     }
   ],
