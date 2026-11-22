@@ -1729,7 +1729,9 @@
           "source": "lsp",
           "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/setuptools/__init__.py"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/365080941ea3a815ac09e57a7d4ee263a142651d/chunk-001.nq.gz",
+      "dep": "dep/365080941ea3a815ac09e57a7d4ee263a142651d.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
